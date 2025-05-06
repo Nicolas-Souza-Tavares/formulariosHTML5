@@ -13,4 +13,14 @@ body{
     height: 100vh;
     background-color: var(--background-color);
     color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+    header{
+        top: 0;
+        height: 60px;
+        border-bottom: 2px solid var(--text-color);
+    }
